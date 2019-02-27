@@ -1,0 +1,32 @@
+<main @listAnimation>
+  <section id ="processing" class="processing-section in">
+    <h1>Please wait while we process your payment . . .</h1>
+    <p>Please confirm your payment on your phone by responding to a popup message or dial <span>*182*7#</span></p>
+    <div class="status-card">
+      <i class="fa fa-spinner fa-spin"></i>
+    </div>
+  </section>
+
+  <section id="failed" class="failed-section hidden out">
+    <div class="status-card">
+      <h4><i class="fa fa-exclamation-circle"></i>Your payment has <span>failed</span></h4>
+    </div>
+    <div class="redirecting">
+      <h4>Please wait a moment while we are redirecting you back to your order.
+      </h4>
+    </div>
+  </section>
+
+  <section id="success" class="success-section hidden out">
+    <div class="status-card">
+      <h4><i class="fa fa-check-square"></i>Your payment was <span>successfully completed</span></h4>
+    </div>
+    <div class="redirecting">
+      <h4>Please wait a moment while we are redirecting you back to your order.</h4>
+    </div>
+  </section>
+</main> 
+
+
+
+

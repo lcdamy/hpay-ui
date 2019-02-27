@@ -1,0 +1,157 @@
+body {
+
+    margin: 0;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+section {
+
+    padding-top: 150px;
+
+    box-sizing: border-box;
+
+    max-width: 600px;
+
+    margin: auto;
+
+}
+
+section h1 {
+
+    font-size: 30px;
+
+}
+
+section p {
+
+    max-width: 440px;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    margin: auto;
+
+}
+
+section p span {
+
+	font-weight: bold;
+
+}
+
+i.fa:before {
+
+    font-family: FontAwesome;
+
+}
+
+.status-card {
+
+    text-align: center;
+
+    margin-top: 44px;
+
+}
+
+.processing-section .status-card i {
+
+    font-size: 50px;
+
+}
+
+.failed-section .status-card i {
+
+    font-size: 42px;
+
+    background: red;
+
+    color: white;
+
+    border: 1px solid;
+
+    border-radius: 50%;
+
+    padding: 0 3px;
+
+    margin: 0 10px;
+
+}
+
+.failed-section .status-card h4 {
+
+	color: #707070;
+
+}
+
+.failed-section .status-card h4 span {
+
+    color: red;
+
+}
+
+.failed-section .status-card, .success-section .status-card {
+
+    border: 1px solid #b3b0b0;
+
+    max-width: 370px;
+
+    margin: 44px auto;
+
+    border-radius: 5px;
+
+}
+
+.success-section .status-card i {
+
+    background: #119A8A;
+
+    color: white;
+
+    padding: 0 2px;
+
+    font-size: 42px;
+
+    border-radius: 10px;
+
+    margin: 0 10px;
+
+}
+
+.success-section .status-card span {
+
+    color: #119A8A;
+
+}
+
+h4 {
+
+    color: #707070;
+
+}
+
+.redirecting span {
+
+    color: #119A8A;
+
+}
+
+.redirecting {
+
+    max-width: 300px;
+
+    margin: auto;
+
+}
+.bringDown{
+   padding-top:50px;
+}
+.hidden{
+   display:none;
+}
+
+#my_url_failure,#my_url_success{
+    cursor: pointer;
+}
